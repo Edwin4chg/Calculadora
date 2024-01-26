@@ -1,0 +1,43 @@
+@font-face {
+    font-family: 'GypsyMoon';
+    src: url('../font/Gypsy Moon.ttf') format('truetype');
+}
+html{
+    font-family: GypsyMoon;
+    background-color: black;
+    color: white;
+}
+body{
+    width: 95%;
+    margin: auto;
+}
+
+#resultados {
+    display: none;
+}
+h1 {
+    font-size: 3rem;
+    text-align: center; 
+}
+#calculadoraForm, #resultados {
+    text-align: center;
+    margin: 0 auto;
+    max-width: 400px;
+    background-color: white;
+    border-radius: 2rem;
+    padding: 2rem 0;
+    margin-top: 2rem;
+    color: black;
+}
+
+#boton{
+    background-color: black;
+    border-radius: 1rem;
+    padding: 0.5rem 2rem;
+    color: wheat;
+}
+#boton:hover{
+    color: black;
+    background: white;
+    border: solid black;
+}
